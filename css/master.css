@@ -235,16 +235,16 @@ main{
   color: rgba(255, 108, 108, 0.5);
 }
 .onlyWomen{
-  font-size: 20px;
+  font-size: 21px;
   text-align: left;
-  padding-left: 20px;
+  padding-left: 15px;
   position: relative;
 }
 #onlyWomenId{
-  font-size:10px;
+  font-size: 10px;
   position: absolute;
   top: 0px;
-  left: 50px;
+  left: 42px;
 }
 
 .slideMenu{
