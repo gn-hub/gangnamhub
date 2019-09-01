@@ -279,6 +279,23 @@ main{
   font-size: 16px;
   font-weight: 700;
 }
+.description_informationBox{
+  padding: 14px 8px;
+  color: #FF9900;
+  font-size: 15px;
+  border-bottom: 1px solid #000;
+  line-height: 18px;
+}
+#description_information_gray{
+  color: #999;
+}
+.description_informationBox ul{
+  list-style: none;
+  padding: 0;
+}
+.description_informationBox ul li{
+  padding: 0 15px;
+}
 
 
 /* footer */
