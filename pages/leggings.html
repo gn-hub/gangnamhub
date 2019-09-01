@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="ko" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>강남허브 24시 : 레깅스룸</title>
+    <link rel="stylesheet" href="../css/pages.css">
+    <link rel="stylesheet" href="../css/mediaQuery.css">
+    <link href="https://fonts.googleapis.com/css?family=Nanum+Gothic:400,700,800&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/ba36ee9ff5.js"></script>
+  </head>
+  <body>
+    <header>
+      <div class="headerBox">
+        <div id="slideMenuOpen_Js" class="slideMenuButton">
+          <div class="onlyWomen">
+            <i class="fas fa-list-ul"></i> <div id="onlyWomenId">여성<br>전용</div>
+          </div>
+        </div>
+        <a href="index.html">Gangnam <span id="headerYellowBox">hub</span></a>
+        <a id="headerCall" href="tel:010-1111-1111"><i class="fas fa-phone-alt"></i></a>
+      </div>
+
+      <!-- slide menu -->
+      <div id="slideMenu" class="slideMenu">
+        <div class="closeButton"></div>
+        <p>여성전용 메뉴</p>
+        <a href="#">호스트바</a>
+        <a href="#">정빠</a>
+        <a href="#">토닥이</a>
+        <p>유흥알바</p>
+        <a href="#">월1000만원</a>
+      </div>
+      <div id="bodyBlack" class="bodyBlack"></div>
+      <!-- slide menu javascript-->
+      <script type="text/javascript">
+        document.getElementById('slideMenuOpen_Js')
+        .addEventListener('click', function(){
+          document.getElementById('slideMenu').style.left = '-180px';
+          document.getElementsByTagName('body')[0].style.overflow = 'hidden';
+          document.getElementById('bodyBlack').style.display = 'block';
+        });
+      </script>
+      <script type="text/javascript">
+        document.getElementById('bodyBlack')
+        .addEventListener('click', function(){
+          this.style.display = 'none';
+          document.getElementById('slideMenu').style.left = '-550px';
+          document.getElementsByTagName('body')[0].style.overflow = 'visible';
+        });
+      </script>
+      <!-- scroll header hide javascript-->
+      <script type="text/javascript">
+        window.onscroll = function(){
+          headerHide()
+        };
+        function headerHide(){
+          if (document.body.scrollTop > 1000 || document.documentElement.scrollTop > 1000) {
+            document.getElementsByTagName('header')[0].style.top = '-50px';
+          } else {
+            document.getElementsByTagName('header')[0].style.top = '0';
+          }
+        }
+      </script>
+    </header>
+    <nav>
+      <ul>
+        <li><a href="pages/leggings.html" target="_blank">레깅스룸</a></li>
+        <li><a href="" target="_blank">셔츠룸</a></li>
+        <li><a href="" target="_blank">퍼블릭룸</a></li>
+        <li id="navListRightBorder"><a href="" target="_blank">텐카페</a></li>
+
+        <li><a href="" target="_blank">풀싸롱</a></li>
+        <li><a href="" target="_blank">하드코어</a></li>
+        <li><a href="" target="_blank">안마</a></li>
+        <li id="navListRightBorder"><a href="" target="_blank">태국아로마</a></li>
+      </ul>
+    </nav>
+    <main>
+      <div class="mainIndexImgContainer">
+        <img id="mainIndexImg" src="../images/mainIndexImg.png">
+        <img id="mainIndexWoomId" src="../images/mainIndexWoom.gif">
+      </div>
+      <div class="mainIndeximgContainer_bottom_pTag">
+        <p>Gangnam 24Hour Service</p>
+      </div>
+      <div class="pickupButton">
+        <ul>
+          <li><a id="kakao" href="https://open.kakao.com/o/g44fkvCb">카카오톡 오픈채팅 익명문의</a></li>
+          <li><a href="tel:010-1111-2222">강남권 승용차 무료픽업 Call</a></li>
+        </ul>
+      </div>
+
+      <article class="pagesArticle">
+        <div class="pagesArticle_overflow_div">
+          <img src="../images/indexLeggings.jpg">
+          <div class="pageTitle">레깅스룸</div>
+        </div>
+        <div class="pagesArticle_information">
+          <ul>
+            <li><span class="value">19:00</span><br>OPEN</li>
+            <li><span class="value">05:00</span><br>CLOSE</li>
+            <li><span class="value">20만원</span><br>1부주대</li>
+            <li><span class="value">-</span><br>2부주대</li>
+            <li><span class="value">15만원</span><br>T/C</li>
+          </ul>
+        </div>
+        <div class="pagesArticle_title">
+          <i class="fas fa-check-circle"></i>
+          <div class="name">남성의 판타지를 직접실현! 몸매 상위 10% 아가씨만 모집! 고퀄리티 휘트니스 레깅스룸</div>
+        </div>
+      </article>
+
+    </main>
+    <footer>
+      © Gangnamhub, 2019
+    </footer>
+  </body>
+</html>
