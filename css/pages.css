@@ -285,10 +285,35 @@ main{
   font-size: 15px;
   border-bottom: 1px solid #000;
   line-height: 18px;
+  position: relative;
 }
 #description_information_gray{
   color: #999;
 }
+.talk_call{
+  display: inline;
+  position: absolute;
+  right: 20px;
+}
+#kakaotalk{
+  background: rgb(255, 222, 0);
+  color: #fff;
+  text-decoration: none;
+  padding: 8px;
+  margin: 0 5px;
+  font-size: 12px;
+  border-radius: 3px;
+}
+#phone{
+  background: rgb(67, 144, 182);
+  color: #fff;
+  text-decoration: none;
+  padding: 8px 13px;
+  margin: 0 5px;
+  font-size: 12px;
+  border-radius: 3px;
+}
+
 .description_informationBox ul{
   list-style: none;
   padding: 0;
