@@ -309,6 +309,15 @@ video{
   color: #999;
 }
 
+.pages_detail{
+  margin: 80px 8px 80px;
+  text-align: center;
+  font-size: 11px;
+}
+.pages_detail ol li{
+  padding-top: 5px;
+}
+
 /* footer */
 footer{
   padding-top: 25px;
