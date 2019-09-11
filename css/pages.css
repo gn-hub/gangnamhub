@@ -318,6 +318,10 @@ video{
   padding-top: 5px;
 }
 
+.pages_imgBox img{
+  width: 100%;
+}
+
 /* footer */
 footer{
   padding-top: 25px;
