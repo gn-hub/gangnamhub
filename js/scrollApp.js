@@ -8,7 +8,6 @@ $(document).ready(function(){
     triggerHook: 0
   })
   .setPin('.section01')
-  .addIndicators()
   .addTo(controller);
 
   // section02
@@ -17,7 +16,6 @@ $(document).ready(function(){
     triggerHook: 0
   })
   .setPin('.section02')
-  .addIndicators()
   .addTo(controller);
 
   // section03
@@ -26,7 +24,6 @@ $(document).ready(function(){
     triggerHook: 0
   })
   .setPin('.section03')
-  .addIndicators()
   .addTo(controller);
 
   // section04
@@ -35,7 +32,6 @@ $(document).ready(function(){
     triggerHook: 0,
   })
   .setPin('.section04')
-  .addIndicators()
   .addTo(controller);
 
 });
